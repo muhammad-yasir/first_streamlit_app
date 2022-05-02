@@ -16,4 +16,4 @@ streamlit.text('Hard-Boiled Free-Range Egg')
 
 streamlit.header('Build your own smoothie')
 
-streamlit.dataframe(my_fruit_list')
+streamlit.dataframe(my_fruit_list)
