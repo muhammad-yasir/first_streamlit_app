@@ -61,7 +61,7 @@ streamlit.write('The user entered', fruit_choice)
 
 # write your own comment - what does this do?
 
-streamlit.header("The fruit list contains")
+streamlit.header("View Our Fruit List -  Add Your Favorites!")
 if streamlit.button('Get Fruit Load List'):
   my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
   my_data_row = get_fruit_load_list()
