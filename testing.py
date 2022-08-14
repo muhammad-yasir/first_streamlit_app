@@ -1,2 +1,2 @@
-improt streamlit
+import streamlit
 import snowflake.connector
